@@ -2,3 +2,16 @@
     <h1>Pipes Básicos</h1>
     <p>Pipes incluídos en Angular - Usualmente en el Common Module</p>
 </p-panel>
+<div class="p-grid">
+    <div class="p-col-4">
+        <p-card header="uppercase">
+            {{nameLower | uppercase}}
+        </p-card>
+        <p-card header="lowercase">
+            {{nameUpper | lowercase}}
+        </p-card>
+        <p-card header="titlecase">
+            {{fullName | titlecase}}
+        </p-card>
+    </div>
+</div>
