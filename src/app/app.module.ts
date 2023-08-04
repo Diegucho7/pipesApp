@@ -7,17 +7,17 @@ import { ButtonModule } from 'primeng/button';
 import { SharedModule } from './shared/shared.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MenubarModule } from 'primeng/menubar';
-import { BasicsPageComponent } from './pages/basics-page/basics-page.component';
-import { NumbersPageComponent } from './pages/numbers-page/numbers-page.component';
-import { UncommonPagePageComponent } from './pages/uncommon-page-page/uncommon-page-page.component';
+// import { BasicsPageComponent } from './products/pages/basics-page/basics-page.component';
+// import { NumbersPageComponent } from './products/pages/numbers-page/numbers-page.component';
+// import { UncommonPagePageComponent } from './products/pages/uncommon-page-page/uncommon-page-page.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    BasicsPageComponent,
-    NumbersPageComponent,
-    UncommonPagePageComponent
+    // BasicsPageComponent,
+    // NumbersPageComponent,
+    // UncommonPagePageComponent
   ],
   imports: [
     BrowserModule,
