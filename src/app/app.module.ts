@@ -10,8 +10,10 @@ import { MenubarModule } from 'primeng/menubar';
 // import { BasicsPageComponent } from './products/pages/basics-page/basics-page.component';
 // import { NumbersPageComponent } from './products/pages/numbers-page/numbers-page.component';
 // import { UncommonPagePageComponent } from './products/pages/uncommon-page-page/uncommon-page-page.component';
-
-
+// configuracion del local de la app
+import localEsEc from '@angular/common/locales/es-EC'
+import { registerLocaleData } from '@angular/common';
+registerLocaleData(localEsEc);
 @NgModule({
   declarations: [
     AppComponent,
