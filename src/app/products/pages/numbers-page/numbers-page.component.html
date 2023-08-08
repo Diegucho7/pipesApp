@@ -7,6 +7,18 @@
 
     <div class="col-12 md:col-4">
         <p-card header="Ventas Netas" subheader="del presente año">
-            {{totalSells | number  }}
+            {{totalSells + 1235 | number: '1.2-2'  }}
         </p-card>
     </div>
+
+    <div class="col-12 md:col-4">
+        <p-card header="Ventas Brutas" subheader="del presente año">
+            {{totalSells | currency:'EUR':'symbol-narrow':'1.4-4'}}
+        </p-card>
+    </div>
+    <div class="col-12 md:col-4">
+        <p-card header="Ganacia porcentual" subheader="del presente año">
+            {{percent | percent:'1.2-2'}}
+        </p-card>
+    </div>
+</div>
